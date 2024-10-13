@@ -3,17 +3,19 @@
 Trimui Smart Pro
 
 ## Emulador WOLF3D
-Es necesario modificar el core ecwolf, con el core de la tarjeta no he conseguido reproducir el juego Wolfenstein 3d.
+
+Emulador completo en release, es necesario añadir el juego en la carpeta Roms/WOLF3D
+
+### Modiciar core Ecwolf
+Fue necesario modificar el core ecwolf, con el core de la tarjeta no he conseguido reproducir el juego Wolfenstein 3d.
 
 No he compilado este core lo he descargado del siguiente repositorio https://github.com/christianhaitian/retroarch-cores
 
 
-	Pendiente de subir el emulador completo
-
 ## Emulador CHIP-8
 
-	Pendiente de subir el emulador completo
-	
+Emulador completo en release, con juegos distribuidos libremente
+
 ### Compilar core Jaxe para Trimui Smart PRO
 
 Descargar el sdk desde https://github.com/knulli-cfw/toolchains y descomprimir en /opt/toolchain
