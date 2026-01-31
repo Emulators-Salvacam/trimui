@@ -38,3 +38,27 @@ si es necesario recompilar antes limpiar añadiendo la opción clean
  ```
 make -f Makefile.libretro platform=trimui clean
 ```
+
+### R36S
+La propia compilación para Trimui vale para la R36S
+solo hay que añadir el archivo jaxe_libreto.so (esta dentro del archivo jaxe.zip en release) a la carpeta root/home/ark/.config/retroarch/config
+y añadir el sistema al archivo root/etc/emulationstation/es_systems.cfg
+```
+	<system>
+		<name>chip8</name>
+		<fullname>CHIP-8</fullname>
+		<path>/roms/chip8/</path>
+		<extension>.ch8 .zip .ZIP</extension>
+		<command>sudo perfmax %GOVERNOR% %ROM%; nice -n -19 /usr/local/bin/retroarch -L /home/ark/.config/retroarch/cores/jaxe_libretro.so %ROM%; sudo perfnorm</command>
+		<platform>chip8</platform>
+		<theme>chip8</theme>
+		<manufacturer>Joseph Weisbecker</manufacturer>
+		<release>1977</release>
+		<hardware>computer</hardware>
+	</system>
+```
+Crear la carpeta chip8 en EASYROMS
+
+Según el tema que se este usando es posible que haya que modificar el tema, más info aquí
+https://github.com/dov/r36s-programming?tab=readme-ov-file#installing-into-emulationstation
+
