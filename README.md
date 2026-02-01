@@ -62,3 +62,4 @@ Crear la carpeta chip8 en EASYROMS
 Según el tema que se este usando es posible que haya que modificar el tema, más info aquí
 https://github.com/dov/r36s-programming?tab=readme-ov-file#installing-into-emulationstation
 
+Para el tema nes-box solo he tenido que duplicar la carpeta de un sistema ya existente, y modificar el nombre de la carpeta creada por chip8, y luego modificar las imagenes del interior. Para el tema art-book-3-2 no he tenido que hacer nada.
