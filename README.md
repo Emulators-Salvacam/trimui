@@ -41,7 +41,7 @@ make -f Makefile.libretro platform=trimui clean
 
 ### R36S
 La propia compilación para Trimui vale para la R36S
-solo hay que añadir el archivo jaxe_libreto.so (esta dentro del archivo jaxe.zip en release) a la carpeta root/home/ark/.config/retroarch/config
+solo hay que añadir el archivo [jaxe_libreto.so](https://github.com/Emulators-Salvacam/trimui/blob/main/jaxe_libretro.so) a la carpeta root/home/ark/.config/retroarch/config
 y añadir el sistema al archivo root/etc/emulationstation/es_systems.cfg
 ```
 	<system>
