@@ -39,6 +39,11 @@ si es necesario recompilar antes limpiar añadiendo la opción clean
 make -f Makefile.libretro platform=trimui clean
 ```
 
+Update 01-02-2026
+He vuelto a compilar el core de Jaxe para que tengas los últimos cambios (nuevos temas de colores)
+Si quieres actualizar sustituir el archivo [jaxe_libreto.so](https://github.com/Emulators-Salvacam/trimui/blob/main/jaxe_libretro.so) en la carpeta RetroArch/.retroarch/cores.
+NO LO HE PROBADO EN LA TRIMUI, ya no tengo la consola.
+
 ### R36S
 La propia compilación para Trimui vale para la R36S
 solo hay que añadir el archivo [jaxe_libreto.so](https://github.com/Emulators-Salvacam/trimui/blob/main/jaxe_libretro.so) a la carpeta root/home/ark/.config/retroarch/config
