@@ -46,8 +46,8 @@ NO LO HE PROBADO EN LA TRIMUI, ya no tengo la consola.
 
 ### R36S
 La propia compilación para Trimui vale para la R36S
-solo hay que añadir el archivo [jaxe_libreto.so](https://github.com/Emulators-Salvacam/trimui/blob/main/jaxe_libretro.so) a la carpeta root/home/ark/.config/retroarch/config
-y añadir el sistema al archivo root/etc/emulationstation/es_systems.cfg
+solo hay que añadir el archivo [jaxe_libreto.so](https://github.com/Emulators-Salvacam/trimui/blob/main/jaxe_libretro.so) a la carpeta root/home/ark/.config/retroarch/core
+y añadir el sistema al archivo root/etc/emulationstation/es_systems.cfg o al archivo root/home/ark/.emulationstation
 ```
 	<system>
 		<name>chip8</name>
@@ -63,6 +63,8 @@ y añadir el sistema al archivo root/etc/emulationstation/es_systems.cfg
 	</system>
 ```
 Crear la carpeta chip8 en EASYROMS
+
+Para la configuración y mapeos de los juegos en las carpetas root/home/ark/.config/retroarch/config y root/home/ark/.config/retroarch/config/remaps.
 
 Según el tema que se este usando es posible que haya que modificar el tema, más info aquí
 https://github.com/dov/r36s-programming?tab=readme-ov-file#installing-into-emulationstation
